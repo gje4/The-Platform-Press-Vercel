@@ -54,7 +54,7 @@ function mapWeatherCodeToCondition(weatherCode: number): WeatherCondition {
       return condition;
     }
   }
-  return "Cloudy";
+  return "Sunny";
 }
 
 export function renderWeatherIcon(condition: WeatherCondition): string {
